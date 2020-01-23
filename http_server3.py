@@ -1,6 +1,7 @@
 from socket import *
 import json
 import sys
+import re
 
 def checkParamInt(s):
     a = s[s.find("a=") + 2:s.find("&b")]
@@ -46,7 +47,7 @@ def parse2Json(a,b,c,prod):
         "operands": [a, b, c],
         "result": prod
     }
-    rs = json.dumps(stc, sort_keys=True, indent=4)
+    rs = json.dumps(stc,indent=4)
     return rs
 
 def constructMsg(s,body):
@@ -54,8 +55,8 @@ def constructMsg(s,body):
     header += body
     return header.encode()
 
-def main():
-    serverPort = 8888
+def main(p):
+    serverPort = p
     serverSocket = socket(AF_INET, SOCK_STREAM)
     try:
         serverSocket.bind(("", serverPort))
@@ -91,5 +92,6 @@ def main():
         connSocket.close()
 
 if __name__ in '__main__':
-    #inp = int(sys.argv[1])
-    main()
+    inp = int(sys.argv[1])
+    # port = re.findall(':(?:[\d])+', inp)
+    main(inp)

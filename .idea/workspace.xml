@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d4b1dc0-be13-47b5-b4c5-4e6349e61d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/http_server3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_server1.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_server1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_server2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_server3.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_server3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_server2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +180,7 @@
       <workItem from="1579646320046" duration="1061000" />
       <workItem from="1579648442396" duration="23477000" />
       <workItem from="1579712383964" duration="9645000" />
-      <workItem from="1579726786808" duration="14299000" />
+      <workItem from="1579726786808" duration="15360000" />
     </task>
     <servers />
   </component>
@@ -206,7 +203,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Proj1$test_client.coverage" NAME="test_client Coverage Results" MODIFIED="1579714011503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proj1$http_server2.coverage" NAME="http_server2 Coverage Results" MODIFIED="1579742293078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Proj1$http_server3.coverage" NAME="http_server3 Coverage Results" MODIFIED="1579750966719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proj1$http_server3.coverage" NAME="http_server3 Coverage Results" MODIFIED="1579751951806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proj1$http_server1.coverage" NAME="http_server1 Coverage Results" MODIFIED="1579749928713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proj1$main.coverage" NAME="main Coverage Results" MODIFIED="1579713971775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
