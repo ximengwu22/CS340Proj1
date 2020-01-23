@@ -66,5 +66,5 @@ def main(p):
 
 
 if __name__ == '__main__':
-    #port = int(sys.argv[1])
-    main(8000)
+    port = int(sys.argv[1])
+    main(port)
