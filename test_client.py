@@ -5,8 +5,8 @@ from socket import *
 if "__main__" == __name__:
     serverName = 'localhost' #https://tools.ietf.org/html/rfc2616
     sock = socket(AF_INET, SOCK_STREAM);
-    sock.connect((serverName, 8001))
-    sock.send("rfc2616.xt".encode())
+    sock.connect((serverName, 8888))
+    sock.send("GET /product?a=12hg&b=60&another=0".encode())
 
     szBuf = sock.recv(1024)
 

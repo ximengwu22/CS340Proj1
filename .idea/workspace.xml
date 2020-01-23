@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d4b1dc0-be13-47b5-b4c5-4e6349e61d98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_server2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http_server3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_server1.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_server1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http_server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_server2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfc2616.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_server2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_server2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.http_server2">
+  <component name="RunManager" selected="Python.http_server3">
     <configuration name="http_server1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Proj1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +86,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_server2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="http_server3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http_server3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,8 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.http_server2" />
+        <item itemvalue="Python.http_server3" />
         <item itemvalue="Python.http_server1" />
+        <item itemvalue="Python.http_server2" />
         <item itemvalue="Python.test_client" />
         <item itemvalue="Python.main" />
       </list>
@@ -158,7 +183,7 @@
       <workItem from="1579646320046" duration="1061000" />
       <workItem from="1579648442396" duration="23477000" />
       <workItem from="1579712383964" duration="9645000" />
-      <workItem from="1579726786808" duration="5228000" />
+      <workItem from="1579726786808" duration="14299000" />
     </task>
     <servers />
   </component>
@@ -180,8 +205,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Proj1$test_client.coverage" NAME="test_client Coverage Results" MODIFIED="1579714011503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Proj1$http_server2.coverage" NAME="http_server2 Coverage Results" MODIFIED="1579733502571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Proj1$http_server1.coverage" NAME="http_server1 Coverage Results" MODIFIED="1579727098906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proj1$http_server2.coverage" NAME="http_server2 Coverage Results" MODIFIED="1579742293078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proj1$http_server3.coverage" NAME="http_server3 Coverage Results" MODIFIED="1579750966719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proj1$http_server1.coverage" NAME="http_server1 Coverage Results" MODIFIED="1579749928713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proj1$main.coverage" NAME="main Coverage Results" MODIFIED="1579713971775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

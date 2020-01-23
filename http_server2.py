@@ -31,8 +31,7 @@ def main():
         readable, writable, exceptional = select.select(inputs, outputs, inputs)
 
         for s in readable:
-            print("Enter readable layer, s: ", s)
-            print("\t readable: ", readable)
+            print("##Enter readable layer, s: ", s)
 
             if s is serverSocket:
                 connSocket, addr = s.accept() # connSocket: NEW CONNECTION SOCKET
@@ -57,6 +56,7 @@ def main():
 
 
         for ss in writable:
+            print("##Enter WRRR layer, s: ", s)
             try:
                 next_msg = msg[ss].get_nowait()
 
